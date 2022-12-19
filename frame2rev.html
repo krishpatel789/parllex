@@ -1,0 +1,34 @@
+<html>
+    <!--Node.js can generate dynamic page content
+Node.js can create, open, read, write, delete, and close files on the server
+Node.js can collect form data
+Node.js can add, delete, modify data in your database-->
+    <head>
+        <title>table</title>
+    </head>
+    <body style="background-color:rgb(219, 188, 225)">
+        <center>
+            <br>
+            <br>
+            <br>
+            <br>
+        <table border="2px" height="200px" width="300px">
+            <tr><th>Doc_name</th>
+            <th>Size</th></tr>
+            <tr><th id="first" ><button type="button" onclick="one()">Doc1</button></th>
+            <th>3409kb</th></tr>
+            <tr><th>Doc2</th>
+                <th>3409kb</th></tr>
+                <tr><th>Doc3</th>
+                    <th>3409kb</th></tr>
+        </table>
+        <script>
+            function one()
+            {
+                document.getElementById("first").innerHTML="Resize";
+            }
+        </script>
+   
+    </center>
+    </body>
+</html>
